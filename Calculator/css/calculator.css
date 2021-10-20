@@ -2,6 +2,15 @@
   box-sizing: border-box;
   text-align: center;
 }
+@font-face {
+  font-family: 'LAB디지털';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/LAB디지털.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+h1{
+  font-family: 'LAB디지털';
+}
 .container{
   background-color:  gray;
   width: 280px;
@@ -33,4 +42,11 @@ button{
   border-radius: 10px;
   padding-top: 15px;
   padding-bottom: 15px;   
+}
+#clear{
+  background-color: rgb(255, 27, 72);
+  border: none;
+}
+#plus, #subtract, #divide, #multiply{
+  background-color: rgb(197, 194, 194);
 }
